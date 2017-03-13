@@ -41,6 +41,7 @@ void setup()
 {
   Serial.begin(9600);
   
+  // https://github.com/GarrettSocling/DS18B20/blob/master/DS18B20.cpp#L50
   // Select device.
   selected = ds.select(address);
   
